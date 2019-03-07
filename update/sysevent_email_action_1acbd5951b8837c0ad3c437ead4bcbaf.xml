@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sysevent_email_action">
+    <sysevent_email_action action="INSERT_OR_UPDATE">
+        <action_insert>true</action_insert>
+        <action_update>false</action_update>
+        <active>true</active>
+        <advanced_condition/>
+        <affected_field_on_event/>
+        <category display_value="Uncategorized" name="Uncategorized">c97d83137f4432005f58108c3ffa917a</category>
+        <collection>x_clstu_print_shop_request</collection>
+        <condition/>
+        <content_type>text/html</content_type>
+        <default_interval/>
+        <description/>
+        <digest_from/>
+        <digest_html/>
+        <digest_reply_to/>
+        <digest_separator_html><![CDATA[<p>&nbsp;</p>
+<hr />
+<p>&nbsp;</p>]]></digest_separator_html>
+        <digest_separator_text><![CDATA[\n--------------------------------------------------------------------------------\n]]></digest_separator_text>
+        <digest_subject/>
+        <digest_template/>
+        <digest_text/>
+        <digestable>false</digestable>
+        <event_name>alert_priority.calc_priority_grouping</event_name>
+        <event_parm_1>false</event_parm_1>
+        <event_parm_2>false</event_parm_2>
+        <exclude_delegates>false</exclude_delegates>
+        <force_delivery>false</force_delivery>
+        <from/>
+        <generation_type>engine</generation_type>
+        <importance/>
+        <include_attachments>false</include_attachments>
+        <item>event.parm1</item>
+        <item_table/>
+        <mandatory>false</mandatory>
+        <message/>
+        <message_html><![CDATA[<div>Greetings,</div>
+<div>&nbsp;</div>
+<div>Thank you for submitting your order to Printing Services. Please note orders can take up to 72 business hours for completion. If we have questions/concerns after reviewing your order someone from our department will follow-up with you. Again thank you for choosing Clayton State University Printing Services!</div>
+<div>&nbsp;</div>
+<div>With Great Appreciation,</div>
+<div>&nbsp;</div>
+<p style="margin: 0in 0in 0.0001pt; font-size: 11pt; font-family: Calibri, sans-serif;"><span style="font-family: 'times new roman', times; font-size: 12pt;">&nbsp;</span></p>
+<p style="background: white; margin: 0in 0in 0.0001pt; font-size: 11pt; font-family: Calibri, sans-serif;"><span style="font-size: 12pt; font-family: 'times new roman', times;">Best Regards,</span></p>
+<p style="margin: 0in 0in 0.0001pt; font-size: 11pt; font-family: Calibri, sans-serif;"><span style="font-family: 'times new roman', times; font-size: 12pt;"><em>Clayton State University</em></span></p>
+<p style="margin: 0in 0in 0.0001pt; font-size: 11pt; font-family: Calibri, sans-serif;"><span style="font-family: 'times new roman', times; font-size: 12pt;"><em>Printing Services Coordinator</em></span></p>
+<p style="margin: 0in 0in 0.0001pt; font-size: 11pt; font-family: Calibri, sans-serif;"><em><span style="font-family: 'Garamond',serif; color: #1f497d;">&nbsp;</span></em></p>
+<p style="margin: 0in 0in 0.0001pt; font-size: 11pt; font-family: Calibri, sans-serif;"><em><span style="font-family: 'Garamond',serif; color: #1f497d;">&nbsp;</span></em></p>
+<p style="text-align: center; margin: 0in 0in 0.0001pt; font-size: 11pt; font-family: Calibri, sans-serif;" align="center"><span style="font-size: 12.0pt; font-family: 'Garamond',serif; color: #1f497d;">Clayton State University Printing Services&nbsp; ║&nbsp;&nbsp; Faculty Hall Room 126&nbsp;&nbsp; ║ Morrow, GA 30260</span></p>
+<p style="text-align: center; margin: 0in 0in 0.0001pt; font-size: 11pt; font-family: Calibri, sans-serif;" align="center"><span style="font-size: 12.0pt; font-family: 'Garamond',serif; color: #1f497d;">(678) 466-4377&nbsp; </span><span style="font-size: 12.0pt; font-family: 'Garamond',serif; color: #1f497d;">║</span><a style="color: blue; text-decoration: underline;" href="mailto:printingservices@clayton.edu"><span style="font-size: 12.0pt; font-family: 'Garamond',serif;">printingservices@clayton.edu</span></a></p>
+<p>&nbsp;</p>
+<p>Go to the&nbsp;<a href="service.clayton.edu/print">Print Shop Catalog</a></p>]]></message_html>
+        <message_list/>
+        <message_text/>
+        <name>Print Request Submitted</name>
+        <omit_watermark>false</omit_watermark>
+        <order>100</order>
+        <push_message_only>false</push_message_only>
+        <recipient_fields>caller,assigned_to</recipient_fields>
+        <recipient_groups/>
+        <recipient_users/>
+        <reply_to/>
+        <send_self>true</send_self>
+        <sms_alternate/>
+        <style/>
+        <subject>Your Printing Services Request ${number} has been submitted</subject>
+        <subscribable>false</subscribable>
+        <sys_class_name>sysevent_email_action</sys_class_name>
+        <sys_created_by>rfaulkner1</sys_created_by>
+        <sys_created_on>2019-03-06 18:45:48</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>1acbd5951b8837c0ad3c437ead4bcbaf</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Print Request Submitted</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Print Shop" source="x_clstu_print_shop">844415c74f3023009a35afdd0210c7e8</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Print Shop">844415c74f3023009a35afdd0210c7e8</sys_scope>
+        <sys_update_name>sysevent_email_action_1acbd5951b8837c0ad3c437ead4bcbaf</sys_update_name>
+        <sys_updated_by>rfaulkner1</sys_updated_by>
+        <sys_updated_on>2019-03-06 20:59:39</sys_updated_on>
+        <sys_version>2</sys_version>
+        <template display_value="Unsubscribe and Preferences">7ed0481f3b0b2200c869c2c703efc487</template>
+        <type>email</type>
+        <weight>0</weight>
+    </sysevent_email_action>
+</record_update>

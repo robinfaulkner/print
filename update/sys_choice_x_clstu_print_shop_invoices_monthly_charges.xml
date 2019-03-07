@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="monthly_charges" table="x_clstu_print_shop_invoices" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>monthly_charges</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Copier Charges</label>
+            <language>en</language>
+            <name>x_clstu_print_shop_invoices</name>
+            <sequence>0</sequence>
+            <sys_created_by>rfaulkner1</sys_created_by>
+            <sys_created_on>2019-03-05 21:32:45</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>2899b8c91bc8f3c0ad3c437ead4bcb09</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>rfaulkner1</sys_updated_by>
+            <sys_updated_on>2019-03-05 21:32:45</sys_updated_on>
+            <value>Copier Charges</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>monthly_charges</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Lease Agreement Charges</label>
+            <language>en</language>
+            <name>x_clstu_print_shop_invoices</name>
+            <sequence>1</sequence>
+            <sys_created_by>rfaulkner1</sys_created_by>
+            <sys_created_on>2019-03-05 21:32:45</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>6c99b8c91bc8f3c0ad3c437ead4bcb0a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>rfaulkner1</sys_updated_by>
+            <sys_updated_on>2019-03-05 21:32:45</sys_updated_on>
+            <value>Lease Agreement Charges</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>monthly_charges</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Maint. Agreement</label>
+            <language>en</language>
+            <name>x_clstu_print_shop_invoices</name>
+            <sequence>2</sequence>
+            <sys_created_by>rfaulkner1</sys_created_by>
+            <sys_created_on>2019-03-05 21:32:45</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ac99b8c91bc8f3c0ad3c437ead4bcb0b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>rfaulkner1</sys_updated_by>
+            <sys_updated_on>2019-03-05 21:32:45</sys_updated_on>
+            <value>Maint. Agreement</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>monthly_charges</element>
+            <name>x_clstu_print_shop_invoices</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>rfaulkner1</sys_created_by>
+            <sys_created_on>2019-03-05 21:32:45</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>a099b8c91bc8f3c0ad3c437ead4bcb0a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>monthly_charges</sys_name>
+            <sys_package display_value="Print Shop" source="x_clstu_print_shop">844415c74f3023009a35afdd0210c7e8</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Print Shop">844415c74f3023009a35afdd0210c7e8</sys_scope>
+            <sys_update_name>sys_choice_x_clstu_print_shop_invoices_monthly_charges</sys_update_name>
+            <sys_updated_by>rfaulkner1</sys_updated_by>
+            <sys_updated_on>2019-03-05 21:32:45</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

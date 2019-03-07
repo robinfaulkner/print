@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="poster_size" table="x_clstu_print_shop_request" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>poster_size</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>11" x 17"</label>
+            <language>en</language>
+            <name>x_clstu_print_shop_request</name>
+            <sequence/>
+            <sys_created_by>rfaulkner1</sys_created_by>
+            <sys_created_on>2019-01-02 20:09:02</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f9d35985137e6b401784b3b12244b069</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>rfaulkner1</sys_updated_by>
+            <sys_updated_on>2019-01-02 20:09:02</sys_updated_on>
+            <value>11_17</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>poster_size</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>12" x 18"</label>
+            <language>en</language>
+            <name>x_clstu_print_shop_request</name>
+            <sequence/>
+            <sys_created_by>rfaulkner1</sys_created_by>
+            <sys_created_on>2019-01-02 20:09:18</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>25e35185137e6b401784b3b12244b0a1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>rfaulkner1</sys_updated_by>
+            <sys_updated_on>2019-01-02 20:09:18</sys_updated_on>
+            <value>12_18</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>poster_size</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>16" x 20"</label>
+            <language>en</language>
+            <name>x_clstu_print_shop_request</name>
+            <sequence/>
+            <sys_created_by>rfaulkner1</sys_created_by>
+            <sys_created_on>2019-01-02 20:09:31</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f4f3d985137e6b401784b3b12244b018</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>rfaulkner1</sys_updated_by>
+            <sys_updated_on>2019-01-02 20:09:31</sys_updated_on>
+            <value>16_20</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>poster_size</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>24" x 36"</label>
+            <language>en</language>
+            <name>x_clstu_print_shop_request</name>
+            <sequence/>
+            <sys_created_by>rfaulkner1</sys_created_by>
+            <sys_created_on>2019-01-02 20:09:45</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>88049585137e6b401784b3b12244b02b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>rfaulkner1</sys_updated_by>
+            <sys_updated_on>2019-01-02 20:09:45</sys_updated_on>
+            <value>24_36</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>poster_size</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>55" x 36"</label>
+            <language>en</language>
+            <name>x_clstu_print_shop_request</name>
+            <sequence/>
+            <sys_created_by>rfaulkner1</sys_created_by>
+            <sys_created_on>2019-01-02 20:09:58</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>13045d85137e6b401784b3b12244b08a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>rfaulkner1</sys_updated_by>
+            <sys_updated_on>2019-01-02 20:09:58</sys_updated_on>
+            <value>55_36</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>poster_size</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>8.5" x 11"</label>
+            <language>en</language>
+            <name>x_clstu_print_shop_request</name>
+            <sequence/>
+            <sys_created_by>rfaulkner1</sys_created_by>
+            <sys_created_on>2019-01-02 20:08:48</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>86b3d585137e6b401784b3b12244b0dc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>rfaulkner1</sys_updated_by>
+            <sys_updated_on>2019-01-02 20:08:48</sys_updated_on>
+            <value>85_11</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>poster_size</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Other</label>
+            <language>en</language>
+            <name>x_clstu_print_shop_request</name>
+            <sequence/>
+            <sys_created_by>rfaulkner1</sys_created_by>
+            <sys_created_on>2019-01-02 20:10:10</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>da141d85137e6b401784b3b12244b0d0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>rfaulkner1</sys_updated_by>
+            <sys_updated_on>2019-01-02 20:10:10</sys_updated_on>
+            <value>Other</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>poster_size</element>
+            <name>x_clstu_print_shop_request</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>rfaulkner1</sys_created_by>
+            <sys_created_on>2019-01-02 20:08:48</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>9ac35985137e6b401784b3b12244b043</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>poster_size</sys_name>
+            <sys_package display_value="Print Shop" source="x_clstu_print_shop">844415c74f3023009a35afdd0210c7e8</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Print Shop">844415c74f3023009a35afdd0210c7e8</sys_scope>
+            <sys_update_name>sys_choice_x_clstu_print_shop_request_poster_size</sys_update_name>
+            <sys_updated_by>rfaulkner1</sys_updated_by>
+            <sys_updated_on>2019-01-02 20:08:48</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

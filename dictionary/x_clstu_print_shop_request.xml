@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element audit="true" extends="task" label="Print Shop Request" max_length="40" name="x_clstu_print_shop_request" sizeclass="12" type="collection">
+        <element choice="1" label="Badge Type" max_length="40" name="badge_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Faculty/Staff (Gold)" sequence="1" value="Faculty_Staff_Gold"/>
+                <element inactive_on_update="false" label="Student Worker (Silver)" sequence="2" value="Student_Worker_Silver"/>
+            </choice>
+        </element>
+        <element label="BC or NB Department" max_length="32" name="bc_department" type="string"/>
+        <element choice="1" label="Payment Information" max_length="40" name="bill_to" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Department ID" value="department"/>
+                <element inactive_on_update="false" label="Foundation Check" value="foundation"/>
+                <element inactive_on_update="false" label="Personal" value="personal"/>
+            </choice>
+        </element>
+        <element choice="1" label="Bindery" max_length="40" name="bindery" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="3 Hole Punch" value="3hole_punch"/>
+                <element inactive_on_update="false" label="Fold" value="fold"/>
+                <element inactive_on_update="false" label="Laminate" value="laminate"/>
+                <element inactive_on_update="false" label="Staple" value="staple"/>
+            </choice>
+        </element>
+        <element choice="1" label="Binding" max_length="40" name="binding" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="GBC/Comb" value="gbc_comb"/>
+                <element inactive_on_update="false" label="Saddle Stitch" value="saddle_stitch"/>
+                <element inactive_on_update="false" label="Spiral" value="spiral"/>
+                <element inactive_on_update="false" label="Tape Binding" value="tape_binding"/>
+            </choice>
+        </element>
+        <element choice="1" label="Blank Second Sheet Quantity" max_length="40" name="blank_second_sheet_quantity" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="1000" value="1000"/>
+                <element inactive_on_update="false" label="2000" value="2000"/>
+                <element inactive_on_update="false" label="3000" value="3000"/>
+            </choice>
+        </element>
+        <element label="Building Name" max_length="32" name="building_name" type="string"/>
+        <element choice="1" label="Business Card Quantity" max_length="40" name="business_card_quantity" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="25" value="25"/>
+                <element inactive_on_update="false" label="50" value="50"/>
+            </choice>
+        </element>
+        <element label="Caller" max_length="32" name="caller" reference="sys_user" type="reference"/>
+        <element label="Cell" max_length="40" name="cell" type="string"/>
+        <element label="Collate" max_length="40" name="collate" type="boolean"/>
+        <element label="Number of copies" max_length="10" name="copies_needed" type="string"/>
+        <element label="Cost" max_length="20" name="cost" type="currency"/>
+        <element choice="1" label="Cover Paper" max_length="40" name="cover_paper" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Cover Stock" value="cover_stock"/>
+                <element inactive_on_update="false" label="Self Cover" value="self_cover"/>
+            </choice>
+        </element>
+        <element label="Date and Time Needed" max_length="40" name="date_time_needed" type="glide_date_time"/>
+        <element label="Delivery Location" max_length="100" name="delivery_location" type="string"/>
+        <element label="Department" max_length="150" name="department" type="string"/>
+        <element label="Department" max_length="15" name="department_id" reference="u_peoplesoft_speedtype" type="reference"/>
+        <element active="false" label="Department Location" max_length="32" name="department_location" type="string"/>
+        <element choice="1" label="Design" max_length="40" name="design" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Athletics" value="Athletics"/>
+                <element inactive_on_update="false" label="College of Business" value="College of Business"/>
+                <element inactive_on_update="false" label="Standard Faculty/Staff" value="Standard Faculty/Staff"/>
+                <element inactive_on_update="false" label="Students" value="Students"/>
+            </choice>
+        </element>
+        <element label="Duplex" max_length="40" name="duplex" type="boolean"/>
+        <element label="Email" max_length="40" name="email" type="string"/>
+        <element choice="1" label="Envelope Format" max_length="100" name="envelope_format" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="#10 Soft White Blue &amp; Orange Logo" value="10 Soft White Blue &amp; Orange Logo"/>
+                <element inactive_on_update="false" label="#10 Soft White Blue Logo" value="10 Soft White Blue Logo"/>
+            </choice>
+        </element>
+        <element choice="1" label="Envelope Order Quantity" max_length="40" name="envelope_order_quantity" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="1000" value="1000"/>
+                <element inactive_on_update="false" label="2000" value="2000"/>
+                <element inactive_on_update="false" label="3000" value="3000"/>
+            </choice>
+        </element>
+        <element label="Fax" max_length="40" name="fax" type="string"/>
+        <element choice="1" label="Finished Size" max_length="40" name="finished_size" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Fold" value="fold"/>
+                <element inactive_on_update="false" label="Perferate" value="perferate"/>
+                <element inactive_on_update="false" label="Stitch" value="stitch"/>
+                <element inactive_on_update="false" label="Trim" value="trim"/>
+            </choice>
+        </element>
+        <element choice="1" label="Finishings" max_length="40" name="finishings" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Foam Core Mounting" value="fowm_core_mounting"/>
+                <element inactive_on_update="false" label="Lamination" value="lamination"/>
+            </choice>
+        </element>
+        <element choice="1" label="Flyer Size" max_length="40" name="flyer_size" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="11&quot; x 17&quot;" value="11_17"/>
+                <element inactive_on_update="false" label="3.25&quot; x 5&quot;" value="325_5"/>
+                <element inactive_on_update="false" label="4&quot; x 6&quot;" value="4_6"/>
+                <element inactive_on_update="false" label="5&quot; x 7&quot;" value="5_7"/>
+                <element inactive_on_update="false" label="6&quot; x 9&quot;" value="6_9"/>
+                <element inactive_on_update="false" label="8.5&quot; x 11&quot;" value="85_11"/>
+                <element inactive_on_update="false" label="8.5&quot; x 5.5&quot;" value="85_55"/>
+            </choice>
+        </element>
+        <element label="Grant Number (if applicable)" max_length="15" name="grant_number_if_applicable" type="string"/>
+        <element label="1/2 Fold" max_length="40" name="half_fold" type="boolean"/>
+        <element choice="1" label="Inside Paper" max_length="40" name="inside_paper" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Medium" value="Medium"/>
+                <element inactive_on_update="false" label="Regular" value="Regular"/>
+            </choice>
+        </element>
+        <element choice="1" label="Inside Weight" max_length="40" name="inside_weight" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="65lb" sequence="65" value="65"/>
+                <element inactive_on_update="false" label="70#" sequence="70" value="70"/>
+                <element inactive_on_update="false" label="80#" sequence="80" value="80"/>
+                <element inactive_on_update="false" label="100#" sequence="100" value="100"/>
+            </choice>
+        </element>
+        <element label="Invoice" max_length="50" name="invoice" type="string"/>
+        <element choice="1" label="Letterhead Format" max_length="40" name="letterhead_format" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Soft White Paper Blue &amp; Orange Logo" value="Soft White Paper Blue &amp; Orange Logo"/>
+                <element inactive_on_update="false" label="Soft White Paper Blue Logo" value="Soft White Paper Blue Logo"/>
+            </choice>
+        </element>
+        <element choice="1" label="Letterhead Order Quantity" max_length="40" name="letterhead_order_quantity" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="1000" value="1000"/>
+                <element inactive_on_update="false" label="2000" value="2000"/>
+                <element inactive_on_update="false" label="3000" value="3000"/>
+            </choice>
+        </element>
+        <element label="BC Name" max_length="35" name="name" type="string"/>
+        <element label="NB Name and Credentials" max_length="22" name="nb_name_and_credentials" type="string"/>
+        <element label="Number of pages" max_length="10" name="pages_submitted" type="string"/>
+        <element choice="1" label="Paper Color" max_length="40" name="paper_color" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Bright" value="bright"/>
+                <element inactive_on_update="false" label="Paste" value="paste"/>
+                <element inactive_on_update="false" label="White" value="white"/>
+            </choice>
+        </element>
+        <element choice="1" label="Paper Selection" max_length="40" name="paper_weight" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Card Stock" value="Card Stock"/>
+                <element inactive_on_update="false" label="Copy Paper" value="Copy Paper"/>
+                <element inactive_on_update="false" label="Multi-Purpose Paper" value="Multi-Purpose Paper"/>
+            </choice>
+        </element>
+        <element choice="1" label="Poster Size" max_length="40" name="poster_size" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="11&quot; x 17&quot;" value="11_17"/>
+                <element inactive_on_update="false" label="12&quot; x 18&quot;" value="12_18"/>
+                <element inactive_on_update="false" label="16&quot; x 20&quot;" value="16_20"/>
+                <element inactive_on_update="false" label="24&quot; x 36&quot;" value="24_36"/>
+                <element inactive_on_update="false" label="55&quot; x 36&quot;" value="55_36"/>
+                <element inactive_on_update="false" label="8.5&quot; x 11&quot;" value="85_11"/>
+                <element inactive_on_update="false" label="Other" value="Other"/>
+            </choice>
+        </element>
+        <element choice="1" label="Sides" max_length="40" name="print" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Duplex" value="duplex"/>
+                <element inactive_on_update="false" label="Single" value="single"/>
+            </choice>
+        </element>
+        <element label="Print Invoice" max_length="32" name="print_invoice" reference="x_clstu_print_shop_invoices" type="reference"/>
+        <element choice="1" label="Print Request Type" max_length="40" name="print_request_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Booklet" value="Booklet"/>
+                <element inactive_on_update="false" label="Business Card" value="Business Card"/>
+                <element inactive_on_update="false" label="BW" value="BW"/>
+                <element inactive_on_update="false" label="BW - Custom" value="BW - Custom"/>
+                <element inactive_on_update="false" label="Color Copies" value="Color Copies"/>
+                <element inactive_on_update="false" label="Custom" value="Custom"/>
+                <element inactive_on_update="false" label="Handbills Flyers" value="Handbills Flyers"/>
+                <element inactive_on_update="false" label="Name Badges" value="Name Badges"/>
+                <element inactive_on_update="false" label="Poster" value="Poster"/>
+                <element inactive_on_update="false" label="Stationary" value="Stationary"/>
+            </choice>
+        </element>
+        <element choice="1" label="Print Task" max_length="40" name="print_task" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Black and White" value="Black and White"/>
+                <element inactive_on_update="false" label="Booklet" value="Booklet"/>
+                <element inactive_on_update="false" label="Business Cards" value="Business Cards"/>
+                <element inactive_on_update="false" label="Name Tag" value="Name Tag"/>
+            </choice>
+        </element>
+        <element label="Project Description" max_length="1000" name="project_description" type="string"/>
+        <element label="Project Due Date" max_length="40" name="project_due_date" type="glide_date"/>
+        <element label="Project Title" max_length="100" name="project_title" type="string"/>
+        <element label="Special Instructions" max_length="5000" name="special_instructions" type="string"/>
+        <element label="Staple" max_length="40" name="staple" type="boolean"/>
+        <element label="3-Hole" max_length="40" name="three_hole" type="boolean"/>
+        <element label="Title" max_length="35" name="title" type="string"/>
+        <element label="Title and/or Department" max_length="32" name="title_and_or_department" type="string"/>
+        <element label="Tri-Fold" max_length="40" name="tri_fold" type="boolean"/>
+        <element label="Voice" max_length="40" name="voice" type="string"/>
+        <element label="Z-Fold (Include Example)" max_length="40" name="z_fold" type="boolean"/>
+    </element>
+</database>

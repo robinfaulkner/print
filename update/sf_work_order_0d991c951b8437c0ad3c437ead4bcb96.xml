@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sf_work_order">
+    <sf_work_order action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <automatic_condition/>
+        <automatic_roles/>
+        <automatic_script/>
+        <automatic_string/>
+        <business_rule/>
+        <change_client_script/>
+        <client_script/>
+        <comment>Field Service State flow</comment>
+        <derived_from/>
+        <end_text>1</end_text>
+        <ending_state display_value="Draft">3fa660f9c3921200467f10c422d3ae07</ending_state>
+        <event/>
+        <event_rule/>
+        <mandatory_fields/>
+        <manual_condition/>
+        <manual_roles/>
+        <manual_script/>
+        <manual_string/>
+        <name>Initial State</name>
+        <not_mandatory/>
+        <not_read_only/>
+        <not_visible/>
+        <number>SF0010002</number>
+        <override display_value="state">805a4034d7230100fceaa6859e610388</override>
+        <read_only_fields/>
+        <roles/>
+        <start_text/>
+        <starting_state/>
+        <sys_class_name>sf_work_order</sys_class_name>
+        <sys_created_by>rfaulkner1</sys_created_by>
+        <sys_created_on>2019-03-06 13:51:28</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>0d991c951b8437c0ad3c437ead4bcb96</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Initial State</sys_name>
+        <sys_package display_value="Print Shop" source="x_clstu_print_shop">844415c74f3023009a35afdd0210c7e8</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Print Shop">844415c74f3023009a35afdd0210c7e8</sys_scope>
+        <sys_update_name>sf_work_order_0d991c951b8437c0ad3c437ead4bcb96</sys_update_name>
+        <sys_updated_by>rfaulkner1</sys_updated_by>
+        <sys_updated_on>2019-03-06 13:51:37</sys_updated_on>
+        <table>x_clstu_print_shop_request</table>
+        <translated_ending_state>Draft</translated_ending_state>
+        <translated_starting_state/>
+        <ui_action/>
+        <visible_fields/>
+        <work_notes/>
+        <work_notes_rule/>
+    </sf_work_order>
+</record_update>

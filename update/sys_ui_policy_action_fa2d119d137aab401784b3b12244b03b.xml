@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="INSERT_OR_UPDATE">
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field>paper_weight</field>
+        <mandatory>ignore</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>rfaulkner1</sys_created_by>
+        <sys_created_on>2019-01-03 15:28:17</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>fa2d119d137aab401784b3b12244b03b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>paper_weight</sys_name>
+        <sys_package display_value="Print Shop" source="x_clstu_print_shop">844415c74f3023009a35afdd0210c7e8</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Print Shop">844415c74f3023009a35afdd0210c7e8</sys_scope>
+        <sys_update_name>sys_ui_policy_action_fa2d119d137aab401784b3b12244b03b</sys_update_name>
+        <sys_updated_by>rfaulkner1</sys_updated_by>
+        <sys_updated_on>2019-01-03 15:28:17</sys_updated_on>
+        <table>x_clstu_print_shop_request</table>
+        <ui_policy display_value="Show/Hide BW Quick Copies and Color">897915d9137aab401784b3b12244b03e</ui_policy>
+        <visible>true</visible>
+    </sys_ui_policy_action>
+</record_update>

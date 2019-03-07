@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="bill_to" table="x_clstu_print_shop_request" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>bill_to</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Department ID</label>
+            <language>en</language>
+            <name>x_clstu_print_shop_request</name>
+            <sequence/>
+            <sys_created_by>rfaulkner1</sys_created_by>
+            <sys_created_on>2018-11-21 18:53:09</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ceafa8eb1331af001784b3b12244b02d</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>rfaulkner1</sys_updated_by>
+            <sys_updated_on>2019-02-26 18:33:18</sys_updated_on>
+            <value>department</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>bill_to</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Foundation Check</label>
+            <language>en</language>
+            <name>x_clstu_print_shop_request</name>
+            <sequence/>
+            <sys_created_by>rfaulkner1</sys_created_by>
+            <sys_created_on>2018-11-21 18:53:21</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ebbfe0eb1331af001784b3b12244b066</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>rfaulkner1</sys_updated_by>
+            <sys_updated_on>2019-02-26 18:33:41</sys_updated_on>
+            <value>foundation</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>bill_to</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Personal</label>
+            <language>en</language>
+            <name>x_clstu_print_shop_request</name>
+            <sequence/>
+            <sys_created_by>rfaulkner1</sys_created_by>
+            <sys_created_on>2019-02-26 18:33:59</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>6e7d4c7a1b3b2f80ad3c437ead4bcbac</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>rfaulkner1</sys_updated_by>
+            <sys_updated_on>2019-02-26 18:33:59</sys_updated_on>
+            <value>personal</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>bill_to</element>
+            <name>x_clstu_print_shop_request</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>rfaulkner1</sys_created_by>
+            <sys_created_on>2018-11-21 18:53:09</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>ecbfe0eb1331af001784b3b12244b078</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>bill_to</sys_name>
+            <sys_package display_value="Print Shop" source="x_clstu_print_shop">844415c74f3023009a35afdd0210c7e8</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Print Shop">844415c74f3023009a35afdd0210c7e8</sys_scope>
+            <sys_update_name>sys_choice_x_clstu_print_shop_request_bill_to</sys_update_name>
+            <sys_updated_by>rfaulkner1</sys_updated_by>
+            <sys_updated_on>2018-11-21 18:53:09</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

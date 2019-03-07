@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="bce1979f4fb0a3009a35afdd0210c708" sys_domain="global" table="x_clstu_print_shop_request" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>rfaulkner1</sys_created_by>
+            <sys_created_on>2018-10-02 19:00:30</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b4e1979f4fb0a3009a35afdd0210c70b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_clstu_print_shop_request" name="x_clstu_print_shop_request" sys_domain="global" view="Default view">bce1979f4fb0a3009a35afdd0210c708</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="x_clstu_print_shop_request" sys_domain="global" view="Default view">1a81939f4fb0a3009a35afdd0210c731</sys_ui_section>
+            <sys_updated_by>rfaulkner1</sys_updated_by>
+            <sys_updated_on>2018-10-02 19:00:30</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>rfaulkner1</sys_created_by>
+            <sys_created_on>2019-01-03 16:01:54</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d3d4695513baab401784b3b12244b072</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_clstu_print_shop_request" name="x_clstu_print_shop_request" sys_domain="global" view="Default view">bce1979f4fb0a3009a35afdd0210c708</sys_ui_form>
+            <sys_ui_section caption="Project" display_value="Project" name="x_clstu_print_shop_request" sys_domain="global" view="Default view">c3d4295513baab401784b3b12244b027</sys_ui_section>
+            <sys_updated_by>rfaulkner1</sys_updated_by>
+            <sys_updated_on>2019-01-03 16:01:54</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>2</position>
+            <sys_created_by>rfaulkner1</sys_created_by>
+            <sys_created_on>2019-02-21 17:45:35</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f3729a0d1bb7e780ad3c437ead4bcbaa</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_clstu_print_shop_request" name="x_clstu_print_shop_request" sys_domain="global" view="Default view">bce1979f4fb0a3009a35afdd0210c708</sys_ui_form>
+            <sys_ui_section caption="Budget" display_value="Budget" name="x_clstu_print_shop_request" sys_domain="global" view="Default view">3b729a0d1bb7e780ad3c437ead4bcba6</sys_ui_section>
+            <sys_updated_by>rfaulkner1</sys_updated_by>
+            <sys_updated_on>2019-02-21 17:45:35</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>3</position>
+            <sys_created_by>rfaulkner1</sys_created_by>
+            <sys_created_on>2018-10-02 19:07:09</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>0e63dbdf4fb0a3009a35afdd0210c72e</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_clstu_print_shop_request" name="x_clstu_print_shop_request" sys_domain="global" view="Default view">bce1979f4fb0a3009a35afdd0210c708</sys_ui_form>
+            <sys_ui_section caption="Notes" display_value="Notes" name="x_clstu_print_shop_request" sys_domain="global" view="Default view">c663dbdf4fb0a3009a35afdd0210c728</sys_ui_section>
+            <sys_updated_by>rfaulkner1</sys_updated_by>
+            <sys_updated_on>2019-02-21 17:45:35</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_clstu_print_shop_request</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>rfaulkner1</sys_created_by>
+            <sys_created_on>2018-10-02 19:00:30</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>bce1979f4fb0a3009a35afdd0210c708</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_clstu_print_shop_request</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Print Shop" source="x_clstu_print_shop">844415c74f3023009a35afdd0210c7e8</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Print Shop">844415c74f3023009a35afdd0210c7e8</sys_scope>
+            <sys_update_name>sys_ui_form_sections_bce1979f4fb0a3009a35afdd0210c708</sys_update_name>
+            <sys_updated_by>rfaulkner1</sys_updated_by>
+            <sys_updated_on>2018-10-02 19:00:30</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

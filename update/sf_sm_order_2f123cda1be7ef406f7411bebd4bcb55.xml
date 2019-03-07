@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sf_sm_order">
+    <sf_sm_order action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <auto_script_action_delete>false</auto_script_action_delete>
+        <auto_script_action_insert>false</auto_script_action_insert>
+        <auto_script_action_query>false</auto_script_action_query>
+        <auto_script_action_update>false</auto_script_action_update>
+        <auto_script_order/>
+        <auto_script_script/>
+        <auto_script_when>before</auto_script_when>
+        <automatic_condition/>
+        <automatic_roles/>
+        <automatic_script/>
+        <automatic_string/>
+        <business_rule/>
+        <change_client_script/>
+        <client_script/>
+        <comment/>
+        <derived_from/>
+        <end_text/>
+        <ending_state/>
+        <event/>
+        <event_rule/>
+        <mandatory_fields/>
+        <manual_condition/>
+        <manual_roles/>
+        <manual_script/>
+        <manual_string/>
+        <name>Print Request</name>
+        <not_mandatory/>
+        <not_read_only/>
+        <not_visible/>
+        <number>SF0010001</number>
+        <override/>
+        <read_only_fields/>
+        <roles/>
+        <start_text/>
+        <starting_state/>
+        <sys_class_name>sf_sm_order</sys_class_name>
+        <sys_created_by>rfaulkner1</sys_created_by>
+        <sys_created_on>2019-02-12 21:41:52</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>2f123cda1be7ef406f7411bebd4bcb55</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Print Request</sys_name>
+        <sys_package display_value="Print Shop" source="x_clstu_print_shop">844415c74f3023009a35afdd0210c7e8</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Print Shop">844415c74f3023009a35afdd0210c7e8</sys_scope>
+        <sys_update_name>sf_sm_order_2f123cda1be7ef406f7411bebd4bcb55</sys_update_name>
+        <sys_updated_by>rfaulkner1</sys_updated_by>
+        <sys_updated_on>2019-02-12 21:41:52</sys_updated_on>
+        <table>x_clstu_print_shop_request</table>
+        <translated_ending_state/>
+        <translated_starting_state/>
+        <ui_action/>
+        <ui_action_action_name/>
+        <ui_action_client>false</ui_action_client>
+        <ui_action_comments/>
+        <ui_action_form_button>true</ui_action_form_button>
+        <ui_action_form_link>false</ui_action_form_link>
+        <ui_action_hint/>
+        <ui_action_list_choice>false</ui_action_list_choice>
+        <ui_action_list_context_menu>false</ui_action_list_context_menu>
+        <ui_action_name/>
+        <ui_action_onclick/>
+        <ui_action_order/>
+        <ui_action_script/>
+        <ui_action_show_insert>true</ui_action_show_insert>
+        <ui_action_show_update>true</ui_action_show_update>
+        <visible_fields/>
+        <work_notes/>
+        <work_notes_rule/>
+    </sf_sm_order>
+</record_update>

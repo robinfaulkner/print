@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="d61e0fea13b6a3001784b3b12244b0c8" sys_domain="global" table="x_clstu_print_shop_invoices" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>rfaulkner1</sys_created_by>
+            <sys_created_on>2019-01-07 20:54:04</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>9e1e0fea13b6a3001784b3b12244b0ca</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_clstu_print_shop_invoices" name="x_clstu_print_shop_invoices" sys_domain="global" view="Default view">d61e0fea13b6a3001784b3b12244b0c8</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="x_clstu_print_shop_invoices" sys_domain="global" view="Default view">65284f6613b6a3001784b3b12244b0bb</sys_ui_section>
+            <sys_updated_by>rfaulkner1</sys_updated_by>
+            <sys_updated_on>2019-01-07 20:54:04</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>rfaulkner1</sys_created_by>
+            <sys_created_on>2019-01-07 20:54:04</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>9a1e0fea13b6a3001784b3b12244b0cb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_clstu_print_shop_invoices" name="x_clstu_print_shop_invoices" sys_domain="global" view="Default view">d61e0fea13b6a3001784b3b12244b0c8</sys_ui_form>
+            <sys_ui_section caption="Order Info" display_value="Order Info" name="x_clstu_print_shop_invoices" sys_domain="global" view="Default view">961e0fea13b6a3001784b3b12244b0c7</sys_ui_section>
+            <sys_updated_by>rfaulkner1</sys_updated_by>
+            <sys_updated_on>2019-01-07 20:54:04</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_clstu_print_shop_invoices</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>rfaulkner1</sys_created_by>
+            <sys_created_on>2019-01-07 20:54:04</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d61e0fea13b6a3001784b3b12244b0c8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_clstu_print_shop_invoices</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Print Shop" source="x_clstu_print_shop">844415c74f3023009a35afdd0210c7e8</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Print Shop">844415c74f3023009a35afdd0210c7e8</sys_scope>
+            <sys_update_name>sys_ui_form_sections_d61e0fea13b6a3001784b3b12244b0c8</sys_update_name>
+            <sys_updated_by>rfaulkner1</sys_updated_by>
+            <sys_updated_on>2019-01-07 20:54:04</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

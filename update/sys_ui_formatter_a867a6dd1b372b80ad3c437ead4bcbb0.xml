@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_formatter">
+    <sys_ui_formatter action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <angular_module/>
+        <formatter>com_glideapp_questionset_default_question_editor</formatter>
+        <name>Print Shop Variable Editor</name>
+        <sys_class_name>sys_ui_formatter</sys_class_name>
+        <sys_created_by>rfaulkner1</sys_created_by>
+        <sys_created_on>2019-02-22 13:55:20</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>a867a6dd1b372b80ad3c437ead4bcbb0</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Print Shop Variable Editor</sys_name>
+        <sys_package display_value="Print Shop" source="x_clstu_print_shop">844415c74f3023009a35afdd0210c7e8</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Print Shop">844415c74f3023009a35afdd0210c7e8</sys_scope>
+        <sys_update_name>sys_ui_formatter_a867a6dd1b372b80ad3c437ead4bcbb0</sys_update_name>
+        <sys_updated_by>rfaulkner1</sys_updated_by>
+        <sys_updated_on>2019-02-22 13:55:37</sys_updated_on>
+        <table>x_clstu_print_shop_request</table>
+        <type>formatter</type>
+    </sys_ui_formatter>
+</record_update>

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="bindery" table="x_clstu_print_shop_request" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>bindery</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>3 Hole Punch</label>
+            <language>en</language>
+            <name>x_clstu_print_shop_request</name>
+            <sequence/>
+            <sys_created_by>rfaulkner1</sys_created_by>
+            <sys_created_on>2019-01-02 20:30:09</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c49851c9137e6b401784b3b12244b06a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>rfaulkner1</sys_updated_by>
+            <sys_updated_on>2019-01-02 20:30:09</sys_updated_on>
+            <value>3hole_punch</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>bindery</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Fold</label>
+            <language>en</language>
+            <name>x_clstu_print_shop_request</name>
+            <sequence/>
+            <sys_created_by>rfaulkner1</sys_created_by>
+            <sys_created_on>2019-01-02 20:30:21</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>50b891c9137e6b401784b3b12244b0bd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>rfaulkner1</sys_updated_by>
+            <sys_updated_on>2019-01-02 20:30:21</sys_updated_on>
+            <value>fold</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>bindery</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Laminate</label>
+            <language>en</language>
+            <name>x_clstu_print_shop_request</name>
+            <sequence/>
+            <sys_created_by>rfaulkner1</sys_created_by>
+            <sys_created_on>2019-01-02 20:30:32</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>24c851c9137e6b401784b3b12244b0e7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>rfaulkner1</sys_updated_by>
+            <sys_updated_on>2019-01-02 20:30:32</sys_updated_on>
+            <value>laminate</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>bindery</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Staple</label>
+            <language>en</language>
+            <name>x_clstu_print_shop_request</name>
+            <sequence/>
+            <sys_created_by>rfaulkner1</sys_created_by>
+            <sys_created_on>2019-01-02 20:29:30</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b67891c9137e6b401784b3b12244b057</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>rfaulkner1</sys_updated_by>
+            <sys_updated_on>2019-01-02 20:29:41</sys_updated_on>
+            <value>staple</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>bindery</element>
+            <name>x_clstu_print_shop_request</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>rfaulkner1</sys_created_by>
+            <sys_created_on>2019-01-02 20:29:30</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>158891c9137e6b401784b3b12244b0b9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>bindery</sys_name>
+            <sys_package display_value="Print Shop" source="x_clstu_print_shop">844415c74f3023009a35afdd0210c7e8</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Print Shop">844415c74f3023009a35afdd0210c7e8</sys_scope>
+            <sys_update_name>sys_choice_x_clstu_print_shop_request_bindery</sys_update_name>
+            <sys_updated_by>rfaulkner1</sys_updated_by>
+            <sys_updated_on>2019-01-02 20:29:30</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

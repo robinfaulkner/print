@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element audit="true" extends="task" label="Print Shop Task" max_length="40" name="x_clstu_print_shop_task" sizeclass="2" type="collection">
+        <element label="Collate" max_length="40" name="collate" type="boolean"/>
+        <element label="Number of copies needed" max_length="10" name="copies_needed" type="string"/>
+        <element label="Duplex" max_length="40" name="duplex" type="boolean"/>
+        <element label="1/2 Fold" max_length="40" name="half_fold" type="boolean"/>
+        <element label="Job Due Date" max_length="40" name="job_due_date" type="glide_date_time"/>
+        <element label="Number of original pages" max_length="10" name="original_pages" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Printing Task Type" max_length="40" name="printing_task_type" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Booklet" value="Booklet"/>
+                <element inactive_on_update="false" label="BW" value="BW"/>
+                <element inactive_on_update="false" label="Name Badges" value="Name Badges"/>
+                <element inactive_on_update="false" label="Poster" value="Poster"/>
+                <element inactive_on_update="false" label="Business Cards" sequence="0" value="business_cards"/>
+                <element inactive_on_update="false" label="Color Copies" sequence="1" value="Color Copies"/>
+            </choice>
+        </element>
+        <element label="Print Request" max_length="32" name="print_request" reference="x_clstu_print_shop_request" type="reference"/>
+        <element label="Project Description" max_length="1000" name="project_description" type="string"/>
+        <element label="Special Instructions" max_length="1000" name="special_instructions" type="string"/>
+        <element label="Staple" max_length="40" name="staple" type="boolean"/>
+        <element label="3-Hole" max_length="40" name="three_hole" type="boolean"/>
+        <element label="Tri-Fold" max_length="40" name="tri_fold" type="boolean"/>
+        <element label="Z-Fold" max_length="40" name="z_fold" type="boolean"/>
+    </element>
+</database>

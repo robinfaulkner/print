@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>true</active>
+        <annotation/>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <internal_name>create_invoice_after_approval</internal_name>
+        <label_cache>[{"name":"Created or Updated_1.current.print_request.number","label":"Trigger➛Print Shop Task Record➛Print Request➛Number","reference":"","reference_display":"Number","type":"string","base_type":"string","parent_table_name":"x_clstu_print_shop_request","column_name":"number"},{"name":"Created or Updated_1.current.print_request","label":"Trigger➛Print Shop Task Record➛Print Request","reference":"x_clstu_print_shop_request","reference_display":"Print Shop Request","type":"reference","base_type":"reference","parent_table_name":"x_clstu_print_shop_task","column_name":"print_request"},{"name":"Updated_1.current.opened_by","label":"Trigger➛Print Shop Request Record➛Opened by","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"x_clstu_print_shop_request","column_name":"opened_by"},{"name":"c63eb682-4db4-4b28-8ab0-b43169b34dcf.table_name","label":"3➛Table","reference_display":"Table","type":"table_name","base_type":"table_name"},{"name":"c63eb682-4db4-4b28-8ab0-b43169b34dcf.record","label":"3➛Record","reference_display":"Record","type":"document_id","base_type":"document_id"},{"name":"03ee9945-e1db-435c-8f87-c39f37078d31.table_name","label":"1➛Invoices Table","reference":"x_clstu_print_shop_invoices","reference_display":"Invoices","type":"table_name","base_type":"table_name"},{"name":"03ee9945-e1db-435c-8f87-c39f37078d31.record","label":"1➛Invoices Record","reference":"x_clstu_print_shop_invoices","reference_display":"Invoices","type":"reference","base_type":"reference"},{"name":"c65f0894-220d-4113-937f-a57311ac0d95.Table","label":"1➛Print Shop Task Table","reference":"x_clstu_print_shop_task","reference_display":"Print Shop Task","type":"table_name","base_type":"table_name"},{"name":"c65f0894-220d-4113-937f-a57311ac0d95.Record","label":"1➛Print Shop Task Record","reference":"x_clstu_print_shop_task","reference_display":"Print Shop Task","type":"reference","base_type":"reference"},{"name":"Updated_1.current.number","label":"Trigger➛Print Shop Request Record➛Number","reference":"","reference_display":"Number","type":"string","base_type":"string","parent_table_name":"x_clstu_print_shop_request","column_name":"number"},{"name":"Updated_1.current.sys_created_on","label":"Trigger➛Print Shop Request Record➛Created","reference":"","reference_display":"Created","type":"glide_date_time","base_type":"glide_date_time","parent_table_name":"x_clstu_print_shop_request","column_name":"sys_created_on"},{"name":"Updated_1.current.sys_created_by","label":"Trigger➛Print Shop Request Record➛Created by","reference":"","reference_display":"Created by","type":"string","base_type":"string","parent_table_name":"x_clstu_print_shop_request","column_name":"sys_created_by"},{"name":"6c5447f0-c84b-4df6-94fb-0222157522b9.record","label":"1➛Record","reference_display":"Record","type":"document_id","base_type":"document_id"},{"name":"6c5447f0-c84b-4df6-94fb-0222157522b9.table_name","label":"1➛Table","reference_display":"Table","type":"table_name","base_type":"table_name"},{"name":"Created or Updated_1.current","label":"Trigger➛Print Shop Task Record","reference":"x_clstu_print_shop_task","reference_display":"Print Shop Task","type":"reference","base_type":"reference"},{"name":"3e928e3a-be01-4a1c-afe9-b8053d00eacc.record","label":"1➛Print Shop Request Record","reference":"x_clstu_print_shop_request","reference_display":"Print Shop Request","type":"reference","base_type":"reference"},{"name":"3e928e3a-be01-4a1c-afe9-b8053d00eacc.table_name","label":"1➛Print Shop Request Table","reference":"x_clstu_print_shop_request","reference_display":"Print Shop Request","type":"table_name","base_type":"table_name"},{"name":"Updated_1.current","label":"Trigger➛Print Shop Task Record","reference":"x_clstu_print_shop_task","reference_display":"Print Shop Task","type":"reference","base_type":"reference"},{"name":"Created or Updated_1.current.parent","label":"Trigger➛Print Shop Task Record➛Parent","reference":"task","reference_display":"Task","type":"reference","base_type":"reference","parent_table_name":"x_clstu_print_shop_task","column_name":"parent"},{"name":"Created or Updated_1.current.parent.parent","label":"Trigger➛Print Shop Task Record➛Parent➛Parent","reference":"task","reference_display":"Task","type":"reference","base_type":"reference","parent_table_name":"task","column_name":"parent"},{"name":"98573751-66e9-4315-abf9-854e0905ca87.record","label":"2➛Record","reference_display":"Record","type":"document_id","base_type":"document_id"},{"name":"98573751-66e9-4315-abf9-854e0905ca87.table_name","label":"2➛Table","reference_display":"Table","type":"table_name","base_type":"table_name"},{"name":"4bdf6c39-2c5f-4796-8606-9fd1dc089d3a.record","label":"3➛Record","reference_display":"Record","type":"document_id","base_type":"document_id"},{"name":"4bdf6c39-2c5f-4796-8606-9fd1dc089d3a.table_name","label":"3➛Table","reference_display":"Table","type":"table_name","base_type":"table_name"},{"name":"Created or Updated_1.current.parent.number","label":"Trigger➛Print Shop Task Record➛Parent➛Number","reference":"","reference_display":"Number","type":"string","base_type":"string","parent_table_name":"task","column_name":"number"}]</label_cache>
+        <latest_snapshot>6fdd5d9d1bcc37c06f7411bebd4bcb16</latest_snapshot>
+        <master_snapshot>fdca2f721336e3001784b3b12244b03d</master_snapshot>
+        <name>Create Invoice After Approval</name>
+        <outputs/>
+        <remote_trigger_id>deca2f721336e3001784b3b12244b094</remote_trigger_id>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>rfaulkner1</sys_created_by>
+        <sys_created_on>2019-01-07 16:33:21</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>8362daaa13f2a3001784b3b12244b0b8</sys_id>
+        <sys_mod_count>42</sys_mod_count>
+        <sys_name>Create Invoice After Approval</sys_name>
+        <sys_package display_value="Print Shop" source="x_clstu_print_shop">844415c74f3023009a35afdd0210c7e8</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Print Shop">844415c74f3023009a35afdd0210c7e8</sys_scope>
+        <sys_update_name>sys_hub_flow_8362daaa13f2a3001784b3b12244b0b8</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2019-03-06 18:49:50</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow>
+    <sys_variable_value action="delete_multiple" query="document_key=8362daaa13f2a3001784b3b12244b0b8"/>
+</record_update>

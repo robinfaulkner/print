@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <application display_value="Print Shop">4d9455c34f7423009a35afdd0210c760</application>
+        <assessment/>
+        <content_page/>
+        <device_type/>
+        <filter table="x_clstu_print_shop_request">print_request_type=Name Badges^EQ<item endquery="false" field="print_request_type" goto="false" newquery="false" operator="=" or="false" value="Name Badges"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>LIST</link_type>
+        <map_page/>
+        <mobile_title>Print Shop Requests</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>x_clstu_print_shop_request</name>
+        <order>300</order>
+        <override_menu_roles>false</override_menu_roles>
+        <query/>
+        <report/>
+        <roles>x_clstu_print_shop.print_shop_request_user</roles>
+        <survey/>
+        <survey_overwrite>true</survey_overwrite>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>rfaulkner1</sys_created_by>
+        <sys_created_on>2019-03-06 19:03:44</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>1301a9d91b8837c0ad3c437ead4bcb0a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Name Badges</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Print Shop" source="x_clstu_print_shop">844415c74f3023009a35afdd0210c7e8</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Print Shop">844415c74f3023009a35afdd0210c7e8</sys_scope>
+        <sys_update_name>sys_app_module_1301a9d91b8837c0ad3c437ead4bcb0a</sys_update_name>
+        <sys_updated_by>rfaulkner1</sys_updated_by>
+        <sys_updated_on>2019-03-06 19:03:44</sys_updated_on>
+        <timeline_page/>
+        <title>Name Badges</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+</record_update>

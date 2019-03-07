@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Invoices" max_length="40" name="x_clstu_print_shop_invoices" type="collection">
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Badge Type" max_length="40" name="badge_type" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Faculty/Staff (Gold)" value="Faculty_Staff_Gold"/>
+                <element inactive_on_update="false" label="Student Worker (Silver)" value="Student_Worker_Silver"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Cover Weight" max_length="40" name="cover_weight" type="string">
+            <choice/>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Department Copy Charge" max_length="40" name="department_copy_charge" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Tier 01" sequence="1" value="tier_01"/>
+                <element inactive_on_update="false" label="Tier 02" sequence="2" value="tier_02"/>
+                <element inactive_on_update="false" label="Tier 03" sequence="3" value="tier_03"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Finishing" max_length="40" name="finishing" type="string">
+            <choice/>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Lines" max_length="40" name="lines" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="One Lines" value="one_lones"/>
+                <element inactive_on_update="false" label="Two Lines" value="two_lines"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Monthly Charges" max_length="40" name="monthly_charges" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Copier Charges" sequence="0" value="Copier Charges"/>
+                <element inactive_on_update="false" label="Lease Agreement Charges" sequence="1" value="Lease Agreement Charges"/>
+                <element inactive_on_update="false" label="Maint. Agreement" sequence="2" value="Maint. Agreement"/>
+            </choice>
+        </element>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Paper Size" max_length="40" name="paper_size" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="11 x 17" value="11_17"/>
+                <element inactive_on_update="false" label="8.5 x 11" value="8_5_11"/>
+                <element inactive_on_update="false" label="12 x 18" sequence="3" value="12_18"/>
+                <element inactive_on_update="false" label="13 x 19" sequence="4" value="13_19"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Paper Stock" max_length="40" name="paper_stock" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Cover" value="Cover"/>
+                <element inactive_on_update="false" label="Text" value="Text"/>
+            </choice>
+        </element>
+        <element attributes="ignore_filter_on_new=true,edge_encryption_enabled=true,ref_ac_display_value,ts_weight=50" label="Print Request" max_length="32" name="print_request" reference="x_clstu_print_shop_request" type="reference"/>
+        <element choice="1" label="Quantity" max_length="40" name="quantity" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="25" value="25"/>
+                <element inactive_on_update="false" label="50" value="50"/>
+            </choice>
+        </element>
+        <index name="index">
+            <element name="print_request"/>
+        </index>
+    </element>
+</database>

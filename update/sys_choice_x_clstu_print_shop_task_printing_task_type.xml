@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="printing_task_type" table="x_clstu_print_shop_task" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>printing_task_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Booklet</label>
+            <language>en</language>
+            <name>x_clstu_print_shop_task</name>
+            <sequence/>
+            <sys_created_by>rfaulkner1</sys_created_by>
+            <sys_created_on>2019-02-12 21:20:00</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>82fc20961be7ef406f7411bebd4bcbab</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>rfaulkner1</sys_updated_by>
+            <sys_updated_on>2019-02-12 21:20:00</sys_updated_on>
+            <value>Booklet</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>printing_task_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>BW</label>
+            <language>en</language>
+            <name>x_clstu_print_shop_task</name>
+            <sequence/>
+            <sys_created_by>rfaulkner1</sys_created_by>
+            <sys_created_on>2019-02-12 21:17:58</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d1bc28961be7ef406f7411bebd4bcbaa</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>rfaulkner1</sys_updated_by>
+            <sys_updated_on>2019-02-12 21:21:50</sys_updated_on>
+            <value>BW</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>printing_task_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Name Badges</label>
+            <language>en</language>
+            <name>x_clstu_print_shop_task</name>
+            <sequence/>
+            <sys_created_by>rfaulkner1</sys_created_by>
+            <sys_created_on>2019-02-12 21:26:45</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>54ceecd61be7ef406f7411bebd4bcb24</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>rfaulkner1</sys_updated_by>
+            <sys_updated_on>2019-02-12 21:26:45</sys_updated_on>
+            <value>Name Badges</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>printing_task_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Poster</label>
+            <language>en</language>
+            <name>x_clstu_print_shop_task</name>
+            <sequence/>
+            <sys_created_by>rfaulkner1</sys_created_by>
+            <sys_created_on>2019-02-12 21:27:06</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>3cdea41a1be7ef406f7411bebd4bcbe3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>rfaulkner1</sys_updated_by>
+            <sys_updated_on>2019-02-12 21:27:06</sys_updated_on>
+            <value>Poster</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>printing_task_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Business Cards</label>
+            <language>en</language>
+            <name>x_clstu_print_shop_task</name>
+            <sequence>0</sequence>
+            <sys_created_by>rfaulkner1</sys_created_by>
+            <sys_created_on>2018-11-01 19:57:04</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>448ef9cd4fe563009a35afdd0210c73a</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>rfaulkner1</sys_updated_by>
+            <sys_updated_on>2018-11-01 20:14:05</sys_updated_on>
+            <value>business_cards</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>printing_task_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Color Copies</label>
+            <language>en</language>
+            <name>x_clstu_print_shop_task</name>
+            <sequence>1</sequence>
+            <sys_created_by>rfaulkner1</sys_created_by>
+            <sys_created_on>2018-11-01 19:57:24</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>be8ef9cd4fe563009a35afdd0210c73a</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>rfaulkner1</sys_updated_by>
+            <sys_updated_on>2019-02-12 21:26:17</sys_updated_on>
+            <value>Color Copies</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>printing_task_type</element>
+            <name>x_clstu_print_shop_task</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>rfaulkner1</sys_created_by>
+            <sys_created_on>2018-11-01 19:57:04</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>7d8e318d4fe563009a35afdd0210c749</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>printing_task_type</sys_name>
+            <sys_package display_value="Print Shop" source="x_clstu_print_shop">844415c74f3023009a35afdd0210c7e8</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Print Shop">844415c74f3023009a35afdd0210c7e8</sys_scope>
+            <sys_update_name>sys_choice_x_clstu_print_shop_task_printing_task_type</sys_update_name>
+            <sys_updated_by>rfaulkner1</sys_updated_by>
+            <sys_updated_on>2018-11-01 19:57:04</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>
